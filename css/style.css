@@ -72,11 +72,18 @@ p {
     width: 50px;
 }
 
-.bg-img-1 {
+.bg-img-returnal {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
 }
+
+.bg-img-it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .mega-p {
     padding-top: 200px;
 }
