@@ -14,7 +14,6 @@
     padding: 70px 0; 
 }
 
-
 h2 {
     font-size: 2.5rem;
 }
@@ -25,10 +24,15 @@ h3 {
 
 h4 {
     font-size: 1.3rem;
+    font-weight: 700;
 }
 
 h5 {
     font-size: small;
+}
+
+p {
+    font-weight: 700;
 }
 
 .my-txt-white {
@@ -47,18 +51,18 @@ h5 {
     margin-bottom: 34px;
 }
 
-.my-section-subtitle {
-
-}
-
 .my-section-text {
     margin-bottom: 28px;
 }
 
 .my-section-super {
-   
-    
+   color:  #0072ce;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding-bottom: 0;
+   margin-bottom: 0;   
 }
+
 .debug-height {
     min-height: 200px;
     background-color: aqua;
@@ -79,4 +83,8 @@ h5 {
 
 .w60 {
     width: 70%;
+}
+
+.card {
+    border: none;
 }
