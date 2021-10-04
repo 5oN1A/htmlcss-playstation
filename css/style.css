@@ -4,7 +4,7 @@
 
 .bg-img-returnal {
     background-image: url("../img/jumbo-bg.png");
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
@@ -217,6 +217,51 @@ footer a {
 
 /**effects**/
 
+.navbar-nav .nav-link + .dropdown-menu {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -280px;
+    border: 0;
+    border-radius: 0;
+    transition: all .3s;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.dropdown-menu .icons-list {
+    row-gap: 30px;
+    list-style: none;
+}
+
+.icons-list p {
+    margin-bottom: 0;
+}
+
+.sub-link {
+    gap: 30px;
+    list-style: none;
+}
+
+.sub-link li::before {
+    content: "\2022";
+    color: blue; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+    margin-right: -.5em;
+}
+
+header .navbar-nav .nav-link:focus + .dropdown-menu {
+    top: 90px;
+}
+
+.play-menu-ico {
+    width: 70px;
+}
 
 .navbar ul li a:hover {
     color: #2d64e6 !important;
